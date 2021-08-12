@@ -2,5 +2,5 @@
   path: /spec/template/spec/containers/0/args/-
   value: --kubelet-insecure-tls
 - op: add
-  path: /spec/template/spec/containers/0/imagePullPolicy
+  path: /spec/template/spec/containers/0/imagePullPolicy: Always
   value: Never
